@@ -780,11 +780,14 @@ input[type=date], input[type=text], input[type=email], input[type=file], input[t
     padding: 17px 37px;
     background-color: yellow;
     border-radius: 10px;
+    border: 2px solid black;
 }
 .list-cart{
     position: absolute;
     top: 62px;
     right: 0;
-    width: 200px !important;
-    background-color: rgba(107, 106, 106, 0.183);
+    width: 350px !important;
+    background-color: white;
+    display: none;
 }
+
